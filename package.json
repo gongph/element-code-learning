@@ -1,0 +1,17 @@
+{
+  "name": "element-code-learning",
+  "version": "1.0.0",
+  "description": "element code learning",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": "https://github.com/gongph/element-code-learning.git",
+  "author": "gongph <gongph@foxmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "vuepress": "^0.14.8"
+  }
+}
