@@ -60,7 +60,7 @@ themes.forEach((theme) => {
     // 例如：`alert.scss`
     var fileName = key + (isSCSS ? '.scss' : '.css');
     indexContent += '@import "./' + fileName + '";\n';
-    // 生成文件完成路径
+    // 生成文件完整路径
     var filePath = path.resolve(basepath, theme, 'src', fileName);
     // 如果该文件不存在
     if (!fileExists(filePath)) {
