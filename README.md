@@ -2,11 +2,11 @@
 
 我学习 Element 源码的顺序是这样的：
 
-- 首先先搞清楚它的[项目结构](./structure.md)
+- 首先先搞清楚它的[项目结构](https://gongph.github.io/art/structure.html)
 
 你只有搞清楚它的目录都是干嘛的了，才有利于代码层面的分析啊。
 
-- 接下来就是粗略了解下 `package.json` 中每个[构建命令](./command-line.md) 的作用
+- 接下来就是粗略了解下 `package.json` 中每个[构建命令](https://gongph.github.io/art/command-line.html) 的作用
 
 之所以看这个，是为了让我心中有个数
 
