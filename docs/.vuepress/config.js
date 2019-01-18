@@ -1,4 +1,5 @@
 module.exports = {
+  base: '/element-code-learning/',
   title: 'Element 源码学习',
   description: '2019 年给自己定个小目标：把 ElementUI 源码学习一遍！',
   head: [
@@ -7,8 +8,7 @@ module.exports = {
   markdown: {
     toc: {
       includeLevel: [2, 3, 4, 5, 6]
-    },
-    lineNumbers: true
+    }
   },
   themeConfig: {
     nav: [
@@ -29,7 +29,19 @@ module.exports = {
           children: [
             'command-line',
             'build-file',
-            'build-theme'
+            'build-theme',
+            'build-utils',
+            'build-umd',
+            'clean',
+            'deploy-build',
+            'dev',
+            'dev-play',
+            'dist',
+            'i18n',
+            'lint',
+            'pub',
+            'test',
+            'test-watch'
           ]
         }
       ],
